@@ -1,0 +1,106 @@
+*, body {
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+.main-container {
+    margin: 0;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #F55A5A;
+    height: 3.4rem;
+}
+
+.icon {
+    color: #FFFFFF;
+}
+
+.card {
+    display: flex;
+    flex: 0 0 auto; 
+    margin: 1rem auto;
+    width: 45rem;
+    height: 15rem;
+    margin-top: 5rem;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2), 0 0 10px rgba(0, 0, 0, 0.2), 0 0 10px rgba(0, 0, 0, 0.2), 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.card--place {
+    margin: 0.5rem;
+}
+
+.card--journal {
+    margin: auto;
+}
+
+.card--location {
+    margin-bottom: 1rem;
+}
+
+.card--paragraph {
+    display: flex;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.card--end {
+    margin-top: 1rem;
+}
+
+.card--paragraph {
+    margin-top: 0.5rem;
+}
+
+.card--paragraph, .gray, .card--place{
+    font-weight: 400;
+}
+
+.gray {
+    color: #918E9B;
+    margin-left: 0.2rem;
+    text-decoration: underline;
+}
+
+.gray:hover {
+    cursor: pointer;
+}
+
+.location--icon {
+    color: #F55A5A;
+}
+
+.card--image {
+    width: 30%;
+    border-radius: 5px;
+    margin-right: 1rem;
+}
+
+.card--place, .gray, .bold, .card--paragraph {
+    color:#2B283A;
+}
+
+@media only screen and (max-width: 932px) {
+    body {
+        overflow-x: hidden;
+    }
+    nav {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 932px;
+        height: 100px;
+    }
+
+    .card {
+        margin: 15rem 5rem;
+        border: 4px solid red;
+        align-self: center;
+    }
+}
